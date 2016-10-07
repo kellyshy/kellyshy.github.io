@@ -1,19 +1,101 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
-    <title>學習紀錄</title>
-    <link rel="stylesheet" href="CSS/notosanstc.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/hw6.css">
+    <title>HW6</title>
 </head>
 <body>
-    <h1>學習紀錄</h1>
-    <ul>
-        <li><a href="HW1/HW1.html">HW1</a></li>
-        <li><a href="HW2/HW2.html">HW2</a></li>
-    </ul>
+    <div class="row">
+         <div class="col-md-12">  
+            <nav>
+                 <ul>
+                    <li class="start"><a href="#">START BOOTSTRAP</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                 </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+       <div class="col-md-12">
+       <header>
+           <div class="imgkelly"><img src="img/kelly.jpg" alt=""></div>
+            <h1>START BOOTSTRAP</h1>
+            <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+        </header>
+        </div>
+    </div>
+    <section id="portfolio">
+     <div class="row">
+      <div class="container">
+       <h2>PORTFOLIO</h2>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <a href="HW1/HW1.html" target="_blank"><img src="img/cabin.png" alt="">
+            </a>
+        </div></div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <a href="HW2/HW2.html" target="_blank"><img src="img/cake.png" alt="">
+                </a></div></div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <a href="iPhone/iPhone.html" target="_blank"><img src="img/circus.png" alt="">
+                </a></div></div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <a href="HW5/rw.html" target="_blank"><img src="img/game.png" alt="">
+                </a></div></div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <img src="img/safe.png" alt="">
+        </div></div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+            <img src="img/submarine.png" alt="">
+        </div></div>
+    </div>
+    </div>
+    </section>
+    
+    <section id="about">
+        <div class="row">
+            <div class="content">
+                <h2>ABOUT</h2>
+                <div class="col-md-6">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
+                <div class="col-md-12">
+                <div class="button">Download Theme</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+          <div class="row">
+           <h2>CONTACT ME</h2>
+            <div class="col-md-12">
+               
+                   <div class="inputtext"><input type="text" name="Name" value="Name"><br></div>
+                   <div class="inputtext"><input type="text" name="Email" value="Email Address"><br></div>
+                   <div class="inputtext"><input type="text" name="Phone" value="Phone Number"><br></div>
+                   <div class="inputtext"><input type="text" name="Message" value="Message"></div>
+               </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    
 </body>
 </html>
