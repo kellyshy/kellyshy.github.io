@@ -1,0 +1,37 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
+*{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+header{
+    height: 300px;
+    width:100%;
+    color: peachpuff;
+    font-size: 5vw;
+    background-image: url(../HW1/img/20160608_095442.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 4vw;
+    color: #6f1edd;
+}
+
+img{
+    width:70%;
+}
